@@ -1,0 +1,11 @@
+# 文件大小配置
+spring:
+  http:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+# 存储目录配置
+app:
+  file-directory: D:/
+  file-path-format: yyyy/MM/dd/
+  file-name-format: yyyyMMddHHmmssSSS
